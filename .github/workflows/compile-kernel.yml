@@ -82,7 +82,7 @@ on:
         type: choice
         options:
           - -ophub
-          - -yourname
+          - -tzdtwsj
 
 env:
   TZ: Etc/UTC
