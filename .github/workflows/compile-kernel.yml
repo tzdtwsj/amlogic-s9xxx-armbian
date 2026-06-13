@@ -201,7 +201,7 @@ jobs:
           ccache_clear: ${{ inputs.ccache_clear }}
           docker_hostpath: /builder
           docker_image: ophub/armbian-${{ inputs.docker_image }}:arm64
-          kernel_config: tools/config
+          kernel_config: true
 
       - name: Upload Kernel to Release
         uses: ophub/upload-to-releases@main
